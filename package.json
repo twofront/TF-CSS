@@ -1,0 +1,41 @@
+{
+  "name": "tfcss",
+  "version": "0.0.1",
+  "description": "Combine CSS files and use variables.",
+  "repository": "git://github.com/twofront/TF-CSS",
+  "author": "Thomas Baron <thomasjbaron@hotmail.com>",
+  "engine": "node 0.10.5",
+  "dependencies": {
+    "async": "^0.9.0"
+  },
+  "jshintConfig": {
+    "camelcase": true,
+    "curly": false,
+    "eqeqeq": true,
+    "immed": true,
+    "latedef": "nofunc",
+    "newcap": true,
+    "noarg": true,
+    "noempty": true,
+    "nonew": true,
+    "plusplus": false,
+    "quotmark": "single",
+    "undef": true,
+    "unused": false,
+    "strict": false,
+    "trailing": true,
+    "maxparams": 4,
+    "maxdepth": 5,
+    "maxlen": 130,
+    "globalstrict": true,
+    "asi": false,
+    "eqnull": false,
+    "evil": false,
+    "laxbreak": false,
+    "laxcomma": false,
+    "loopfunc": true,
+    "devel": true,
+    "browser": true,
+    "node": true
+  }
+}
