@@ -1,6 +1,6 @@
 {
   "name": "tfcss",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Combine CSS files and use variables.",
   "repository": "git://github.com/twofront/TF-CSS",
   "author": "Thomas Baron <thomasjbaron@hotmail.com>",
