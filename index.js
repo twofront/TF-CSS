@@ -4,7 +4,7 @@ var fs = require('fs');
 var async = require('async');
 
 exports.bundle = function(config, options, callback) {
-	if (this !== exports.bundle) new exports.bundle(config, options, callback);
+	if(!(this instanceof exports.bundle)) return new exports.bundle(config, options, callback);
 	
 	if (callback === undefined) {
 		callback = options;
