@@ -13,6 +13,10 @@ exports.bundle = function(config, options, callback) {
 
 	function compile() {
 		fs.readFile(config, function(err, file1) {
+			if (err) {
+				console.log(err);
+				return;
+			}
 			var cfg = JSON.parse(file1);
 			var allcss = '';
 			var filefuncs = [];

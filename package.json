@@ -1,12 +1,16 @@
 {
   "name": "tfcss",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Combine CSS files and use variables.",
   "repository": "git://github.com/twofront/TF-CSS",
   "author": "Thomas Baron <thomasjbaron@hotmail.com>",
   "engine": "node 0.10.5",
+  "bin": {
+    "tfcss": "bin/index.js"
+  },
   "dependencies": {
-    "async": "^0.9.0"
+    "async": "^0.9.0",
+    "stdio": "^0.1.6"
   },
   "jshintConfig": {
     "camelcase": true,
